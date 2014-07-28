@@ -1,0 +1,30 @@
+{
+  "dumafajeeId": "Compound.GroupPanel",
+  "items": [
+    {"dumafajeeId":"Compound.SimplePanel",
+      "draggable":"true",
+      "dataId":"Button.SimpleButton",
+      "items":[
+        {"dumafajeeId":"Image",
+          "source":"simplebuttonImage"
+        },
+        {"dumafajeeId":"Text.Label",
+          "label": "Simple button!!"
+        }
+      ]
+    },
+    {
+      "dumafajeeId":"Compound.SimplePanel",
+      "draggable":"true",
+      "dataId":"Button.DropDownButton",
+      "items":[
+        {"dumafajeeId":"Image",
+          "source":"dropDownButtonImage"
+        },
+        {"dumafajeeId":"Text.Label",
+          "label": "Drop Down button!!"
+        }
+      ]
+    }
+  ]});
+}
